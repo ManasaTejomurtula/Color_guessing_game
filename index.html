@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pick the Correct Color</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Pick the Correct Color Asked below</h1>
+    <p class="option"></p>
+    <p class="status"></p>
+    <div class="colors">
+        <div class="color-set1">
+            <div class="color">
+                <button class ="btn" id="red" onclick="select(this.id)"></button>
+            </div>
+            <div class="color">
+                <button class="btn" id="green" onclick="select(this.id)"></button>
+            </div>
+            <div class="color">
+                <button class ="btn" id="white" onclick="select(this.id)"></button>
+            </div>
+            <div class="color">
+                <button class ="btn" id="orange" onclick="select(this.id)"></button>
+            </div>
+            <div class="color">
+                <button class ="btn" id="purple" onclick="select(this.id)"></button>
+            </div>
+        </div>
+        <div class="color-set2">
+            <div class="color">
+                <button class= "btn" id="yellow" onclick="select(this.id)"></button>
+            </div>
+            <div class="color">
+                <button class = "btn" id="blue" onclick="select(this.id)"></button>
+            </div>
+            <div class="color">
+                <button class ="btn" id="pink" onclick="select(this.id)"></button>
+            </div>
+            <div class="color">
+                <button class ="btn" id="grey" onclick="select(this.id)"></button>
+            </div>
+            <div class="color">
+                <button class ="btn" id="brown" onclick="select(this.id)"></button>
+            </div>
+        </div>
+    </div>
+    <div id="para-score">
+        <p id="score">0</p>
+        <p style="font-size:2rem;">Score</p>
+    </div>
+    <button id="playAgain">Play</button>
+    <script src="script.js"></script>
+</body>
+</html>

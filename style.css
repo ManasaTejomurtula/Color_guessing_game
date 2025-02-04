@@ -1,0 +1,152 @@
+*{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+h1{
+    color: aqua;
+}
+
+#choice{
+    color:aqua;
+    font-size: 3rem;
+    margin-top: 1rem;
+}
+
+.option{
+    color:wheat;
+    font-size: 4rem;
+    margin-top: 1rem;
+}
+
+.status{
+    margin-top:1rem;
+    color:aqua;
+    font-size: 3rem;
+}
+#red{
+    background-color: red;
+    border: none;
+    width: 150px;  /* Adjust for size */
+    height: 150px; /* Make width and height equal */
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#white{
+    background-color: white;
+    border: none;
+    width: 150px;  /* Adjust for size */
+    height: 150px; /* Make width and height equal */
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#orange{
+    background-color: orange;
+    border: none;
+    width: 150px;  /* Adjust for size */
+    height: 150px; /* Make width and height equal */
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#purple{
+    background-color: purple;
+    border: none;
+    width: 150px;  /* Adjust for size */
+    height: 150px; /* Make width and height equal */
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#grey{
+    background-color: grey;
+    border: none;
+    width: 150px;  /* Adjust for size */
+    height: 150px; /* Make width and height equal */
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#brown{
+    background-color: brown;
+    border: none;
+    width: 150px;  /* Adjust for size */
+    height: 150px; /* Make width and height equal */
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#yellow{
+    background-color: yellow;
+    color: white;
+    border: none;
+    width: 150px;  /* Adjust for size */
+    height: 150px; /* Make width and height equal */
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#blue{
+    background-color: blue;
+    color: white;
+    border: none;
+    width: 150px;  /* Adjust for size */
+    height: 150px; /* Make width and height equal */
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#green{
+    background-color: green;
+    border: none;
+    width: 150px;  /* Adjust for size */
+    height: 150px; /* Make width and height equal */
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#pink{
+    background-color: palevioletred;
+    border: none;
+    width: 150px;  /* Adjust for size */
+    height: 150px; /* Make width and height equal */
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.color-set1, .color-set2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    /* line-height: 6rem; */
+    margin-top: 2rem;
+}
+
+#para-score{
+    color:white;
+    margin-top: 1rem;
+}
+ 
+#score{
+    font-size:3rem;
+    
+}
+
+#playAgain{
+    background-color: aqua;
+    color: black;
+    font-size: 2rem;
+    display: inline;  /*background-color is applied only for the content*/
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 2rem;
+}
+
+/* .hide{
+    display: none;
+} */
